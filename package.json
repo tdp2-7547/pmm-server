@@ -4,11 +4,15 @@
   "description": "Server para la plataforma de movilidad de mascotas.",
   "main": "index.js",
   "dependencies": {
-    "config": "^3.0.1"
+    "config": "^3.0.1",
+    "express": "^4.16.4",
+    "nodemon": "1.18.10"
   },
   "devDependencies": {},
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node src/main.js",
+    "prestart": "nodemon --watch src"
   },
   "repository": {
     "type": "git",
