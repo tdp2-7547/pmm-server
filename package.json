@@ -11,8 +11,7 @@
   "devDependencies": {},
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "node src/main.js",
-    "prestart": "nodemon --watch src"
+    "start": "node  src/main.js"
   },
   "repository": {
     "type": "git",
