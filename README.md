@@ -14,3 +14,8 @@ Server para la plataforma de movilidad de mascotas.
   ```sh
    npm start
   ```
+# Heroku
+ - Server:
+ ```sh
+    https://morning-forest-35227.herokuapp.com/home
+ ```
