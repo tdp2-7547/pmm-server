@@ -6,12 +6,14 @@
   "dependencies": {
     "config": "^3.0.1",
     "express": "^4.16.4",
-    "nodemon": "1.18.10"
+    "nodemon": "1.18.10",
+    "body-parser": "^1.18.3",
+    "request": "^2.88.0"
   },
   "devDependencies": {},
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "node  src/main.js"
+    "start": "node  src/service/main.js"
   },
   "repository": {
     "type": "git",
